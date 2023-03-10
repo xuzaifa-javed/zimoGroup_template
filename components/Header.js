@@ -5,8 +5,7 @@ import Image from "next/image";
 
 const Header = () => {
 
-const handleClick=()=>{
-}
+
 
   return (
     <div
@@ -17,7 +16,8 @@ const handleClick=()=>{
       <div className="flex flex-col justify-between h-full">
         <div className="mt-10">
           <Link href={"#"}>
-            <Image src={"assets/logos/backArrow.svg"} alt="backarrow" width={80} height={80} />
+            <Image src={"assets/logos/backArrow.svg"} 
+            alt="backarrow" width={80} height={80} />
           </Link>
         </div>
         <div className="text-white flex flex-col gap-6">
@@ -31,7 +31,7 @@ const handleClick=()=>{
             FOR THOSE WHO WISH FOR MORE...
           </span>
         </div>
-        <div className="flex flex-col items-center gap-4 mb-2 animate-bounce cursor-pointer" onClick={handleClick}>
+        <div className="flex flex-col items-center gap-4 mb-2 animate-bounce cursor-pointer" >
           <span className="text-[#737373] sm:text-lg  text-[8px] tracking-widest">
             BRINGING THE WORLD CLOSER TOGETHER
           </span>

@@ -9,10 +9,10 @@ const Navbar = () => {
         <div className="flex items-end gap-6    ">
           <Image src={"/assets/logos/navLogoOne.svg"} alt="logo" width={50} height={50} />
           <Image
-            src={"/assets/logos/navLogoTwo.svg"}
+            src={"/assets/logos/navLogoTwo.svg"}  alt="logotwo"
             width={150}
             height={150}
-            alt="logotwo"
+           
             className="md:block hidden"
           />
           <span>
