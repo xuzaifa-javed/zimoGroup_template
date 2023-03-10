@@ -4,7 +4,7 @@ const MapSection = () => {
   return (
     <>
       <div
-        style={{ backgroundImage: "url(assets/Images/worldmap.svg)" }}
+        style={{ backgroundImage: "url(assets/Images/worldmap.png)" }}
         className="w-full h-screen bg-cover bg-fixed  flex justify-center items-center"
       >
         <div className="flex flex-col gap-7 text-center items-center tracking-widest">
