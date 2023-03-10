@@ -17,7 +17,7 @@ const handleClick=()=>{
       <div className="flex flex-col justify-between h-full">
         <div className="mt-10">
           <Link href={"#"}>
-            <Image src={"assets/logos/backArrow.svg"} width={80} height={80} />
+            <Image src={"assets/logos/backArrow.svg"} alt="backarrow" width={80} height={80} />
           </Link>
         </div>
         <div className="text-white flex flex-col gap-6">
@@ -39,6 +39,7 @@ const handleClick=()=>{
             src={"assets/logos/downWhiteArrow.svg"}
             width={80}
             height={80}
+            alt="downarrow"
             className="sm:h-full h-4"
           />
         </div>

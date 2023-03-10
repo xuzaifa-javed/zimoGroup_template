@@ -7,11 +7,12 @@ const Navbar = () => {
     <div>
       <div className="flex justify-between items-center">
         <div className="flex items-end gap-6    ">
-          <Image src={"/assets/logos/navLogoOne.svg"} width={50} height={50} />
+          <Image src={"/assets/logos/navLogoOne.svg"} alt="logo" width={50} height={50} />
           <Image
             src={"/assets/logos/navLogoTwo.svg"}
             width={150}
             height={150}
+            alt="logotwo"
             className="md:block hidden"
           />
           <span>
@@ -25,6 +26,7 @@ const Navbar = () => {
             src={"/assets/logos/navLogoThree.svg"}
             width={150}
             height={150}
+            alt="navlogo"
             className="lg:block hidden"
           />
         </div>
@@ -38,10 +40,10 @@ const Navbar = () => {
                 SUNDAY, 12 FEBRUARY 2023
               </span>
             </div>
-            <Image src={"/assets/logos/Flag.svg"} width={37} height={25} />
+            <Image src={"/assets/logos/Flag.svg"} alt="flag" width={37} height={25} />
           </div>
-          <Image src={"/assets/logos/cart.svg"} width={20} height={25} />
-          <Image src={"/assets/logos/userIcon.svg"} width={20} height={25} />
+          <Image src={"/assets/logos/cart.svg"} alt="cart" width={20} height={25} />
+          <Image src={"/assets/logos/userIcon.svg"} alt="usericon" width={20} height={25} />
         </div>
       </div>
     </div>

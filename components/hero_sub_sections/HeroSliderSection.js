@@ -10,8 +10,8 @@ const HeroSliderSection = () =>{
      <div className='flex justify-between items-center'>
         <span className='sm:text-3xl text-sm text-md tracking-widest'>OUR CATEGORIES</span>
         <div className='flex items-center gap-12'>
-            <button ><Image src={'/assets/logos/leftArrow.svg'} width={15} height={15} /></button>
-            <button><Image src={'/assets/logos/rightArrow.svg'} width={15} height={15}/></button>
+            <button ><Image src={'/assets/logos/leftArrow.svg'} alt='leftarrow' width={15} height={15} /></button>
+            <button><Image src={'/assets/logos/rightArrow.svg'} alt='rightarrow' width={15} height={15}/></button>
         </div>
      </div>
      <div>

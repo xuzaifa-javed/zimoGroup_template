@@ -26,6 +26,7 @@ const HerofirstSection = () => {
           src={"/assets/logos/zimoZig.svg"}
           width={500}
           height={500}
+          alt="zimozig"
           className="sm:w-[30%] w-64"
         />
         <div className="text-center flex flex-col tracking-widest font-normal leading-8 sm:text-lg text-[8px]">
@@ -50,6 +51,7 @@ const HerofirstSection = () => {
         src={"/assets/logos/downArrow.svg"}
         width={50}
         height={50}
+        alt="downarrow"
         className="sm:h-full h-4 self-center cursor-pointer animate-bounce"
       />
     </div>

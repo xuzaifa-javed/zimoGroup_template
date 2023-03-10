@@ -20,14 +20,14 @@ const UserIdSection = () => {
 
       <div className="flex md:flex-row md:gap-0 gap-4 flex-col justify-between items-center ">
         <div>
-          <Image src={"assets/logos/zimolight.svg"} width={300} height={300} />
+          <Image src={"assets/logos/zimolight.svg"} alt="zimolight" width={300} height={300} />
         </div>
         <Link
           href={"#"}
           className="flex items-center text-white tracking-widest gap-4"
         >
           CREATE USER ID
-          <Image src={"assets/logos/UserArrow.svg"} width={25} height={25} />
+          <Image src={"assets/logos/UserArrow.svg"} alt="userarrow" width={25} height={25} />
         </Link>
       </div>
     </div>
